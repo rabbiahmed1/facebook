@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+}
+h1{
+    color:#0f63ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box{
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2); 
+    border: 1px solid rgba(0,0,0,0.1);
+    margin:30px auto;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+.fon input{
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.1); 
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: block;
+    outline: none;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    background:  transparent;
+    border: 1px solid rgba(0,0,0,0.2);
+   
+
+}
+
+.pas input{
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.1); 
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: block;
+    margin-top: 20px;
+    outline: none;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    position: absolute;
+    top:50%;
+    left: 40%;
+    transform: translate(-36% ,8%);
+    background:  transparent;
+    border: 1px solid rgba(0,0,0,0.2);
+   
+}
+.box input::placeholder{
+    color: #1c1e21;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0 20px;
+    font-family:Helvetica, Arial, sans-serif ;
+    background: transparent;
+}
+.box h3{
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+.bt {
+    position: absolute;
+    top: 72%;
+    left: 61%;
+    transform: translate(-66%, -57%);
+    width: 250px;
+    height: 61px;
+    box-shadow: 2px 2px 30px rgb(0 0 0 / 10%);
+    background-color: #0f63ff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.bt:hover{
+    background-color: rgb(42, 45, 224);
+    transition: 0.3s;
+}
